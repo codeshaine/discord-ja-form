@@ -31,37 +31,63 @@
 </div>
 <div class="region">
     <h3>Region</h3>
-    <!-- should add dropdown something here -->
+    <select name="region" id="region">
+    <option value="Asia">Asia</option>
+    <option value="Europe">Europe</option>
+    <option value="America">America</option>
+    <option value="Australia">Australia</option>
+    <option value="China">China</option>
+</select>
+
 </div>
 <div class="age">
     <h3>Age</h3>
-    <!-- Should add Radio button -->
+    <input type="radio" name="Y_14" id="y_14">
+    <label for="y_14">Younger 18</label>
+    <input type="radio" name="14b/n18" id="14_18">
+    <label for="14_18">14-18</label>
+    <input type="radio" name="O_18" id="o_18">
+    <label for="o_18">18+</label>
+
+
 </div>
 <div class="gender">
     <h3>Gender</h3>
-       <!-- Should add Radio button -->
+    <input type="radio" name="Male" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="Female" id="female"> 
+    <label for="female">Female</label>
 </div>
 <div class="chekbox">
     <h3>Select the applicable one(s) for you</h3>
-    <label for="">I have been a staff on a server before</label>
+    <input type="checkbox" name="First_check" id="first_check">
+    <label for="first_check">I have been a staff on a server before</label><br>
+    <input type="checkbox" name="Second_checks" id="second_check">  
     <label for="">I have a working microphone that is working and active</label>
-    <!-- add chekcboxes -->
-</div>
+
 <div class="experience">
     <h3>How long have you been in the server</h3>
-    <input type=" text" id="exp">
+    <input type=" text" id="exp" >
     
 </div>
 <div class="description">
     <h3>Which Staff Role do you want to apply and why?</h3>
-    <!-- should add large text boxes -->
+    <textarea name="Ta_role" id="ta_role" cols="30" rows="5" ></textarea>
+  
     <h3>Tell us about yourself</h3>
-    <!-- should add large text boxes -->
+    <textarea name="Ta_about" id="ta_about" cols="30" rows="5"></textarea>
+    
     <h3>What can you do for the server?</h3>
-    <!-- should add large text boxes -->
+    <textarea name="Ta_Server" id="ta_server" cols="30" rows="5"></textarea>
+   
 </div>
 <div class="last_q">
     <h3>Are you owner of any other server?</h3>
+    <input type="radio" name="Yes" id="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" name="No" id="no">
+    <label for="no">No</label>
+
 </div>
 <div class="foot_buttons"> <button>Submit</button>
     <button>Cancel</button></div>
