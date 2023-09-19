@@ -36,12 +36,39 @@ h3{
 *{
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-    /* color: white; */
+    color:#eaeaed;
+}
+.shade-text{
+    color: #747987;
+}
+.text-box{
+    background-color:#8e949c;
+    border: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.text-box:focus{
+    color:#424657;
+    outline: none; 
+    background-color: #bdc3ca;
+    border:none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+textarea::placeholder{
+    color:#696d7d;
 }
 
+
 .form-color{
-    /*background-color: #23272a;
-    */background-color: bisque;
+
+    background-color:#424657;
     padding: 3rem;
     border-radius: 2%;
     -webkit-border-radius: 2%;
@@ -55,7 +82,7 @@ h3{
     font-size: 3rem;
     padding-top: 1rem;
     font-family: 'Montserrat Subrayada', sans-serif;
-    color: #7289da;
+    color:#7288d9;
 }
 
 .logo_side{
@@ -93,8 +120,11 @@ label{
 
 .select-box{
     width:382px;
-height: 26px;
+height: 23px;
+
 }
+
+
 
 .radio_space{
     margin: 0.3rem;
@@ -119,11 +149,12 @@ textarea{
 }
 button{
 
-    
+
     /* background-color:  */
     margin: 0.5rem;
-    border: 2px solid  #7289da;
-    color: #7289da;
+    border: 2px solid #7288d9;
+    background-color: #424657;
+    color: #7288d9;
     padding:12px;
     text-decoration: none;
     text-align: center;
@@ -136,9 +167,9 @@ button{
     -o-border-radius: 20px;
 }
 button:hover{
-    color:white;
+    color:#eaeaed; ;
     border: none;
-    background-color: #7289da;
+    background-color: #7288d9;
     transition-duration: 0.5s;
     cursor: pointer;
 }
