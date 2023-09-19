@@ -1,8 +1,11 @@
 
-
+*{
+    margin: 0;
+}
 .dis-form{
     display: flex;
 justify-content: center;
+padding: 5rem;
 
 }
 .container{
@@ -28,4 +31,43 @@ h3{
     margin-bottom: 0.5%;
 }
 
+/* ! actual styling begins here i guess */
 
+*{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    /* color: white; */
+}
+
+.form-color{
+   /* background-color: #23272a; */
+    background-color: bisque;
+    padding: 3rem;
+}
+
+
+.logo{
+    font-size: 3rem;
+    padding-top: 1rem;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #7289da;
+}
+
+.logo_side{
+    text-align: end;
+    padding-top: 1rem;
+}
+
+p{
+    font-size:0.8rem;
+    margin-top: 3px;
+}
+
+.row_label{
+    font-size:0.7rem;
+}
+
+.text-box_size2{
+width:375px;
+height: 25px;
+}
