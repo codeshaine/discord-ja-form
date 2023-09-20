@@ -30,22 +30,22 @@
     <h3>Name</h3>
     <div class="firstname">
         <input type="text" name="" id="fname" placeholder="" class="text-box_size1 text-box">
-        <label for="fname" class="padding row_label shade-text" >First Name </label>
+        <label id="fname-valid" for="fname" class="padding row_label shade-text" >First Name </label>
     </div>
     <div class="secondname">
-        <input type="text" name="" id="sname" class="text-box_size1 text-box">
-        <label for="sname" class="padding row_label shade-text" >Second Name </label></div>
+        <input type="text" name="" id="sname" class="text-box_size1 text-box sec-name" placeholder="Optional">
+        <label id="sname-valid" for="sname" class="padding row_label shade-text"">Second Name </label></div>
 
 </div>
 <div class="email container-cell">
     <h3>Email</h3>
     <input type="text" name="" id="mail" class="text-box_size2 text-box" placeholder="">
-    <label for="mail"  class="padding row_label shade-text">example@example.com</label>
+    <label id="mail-valid" for="mail"  class="padding row_label shade-text">example@example.com</label>
 </div>
 <div class="user-name container-cell">
     <h3>User Name</h3>
     <input type=" text" id="uname" class="text-box_size2 text-box">
-    <label for="uname"  class="padding row_label shade-text">Your discord user name (ex) user#112</label>
+    <label id="uname-valid" for="uname"  class="padding row_label shade-text">Your discord user name (ex) user#112</label>
 </div>
 <div class="region ">
     <h3>Region</h3>
@@ -61,20 +61,20 @@
 </div>
 <div class="age">
     <h3>Age</h3>
-    <input type="radio" name="Y_14" id="y_14" class="radio_space">
+    <input type="radio" name="radioage" id="y_14" class="radio_space">
     <label for="y_14" class="label_space">10-14</label>
-    <input type="radio" name="14b/n18" id="14_18" class="radio_space">
+    <input type="radio" name="radioage" id="14_18" class="radio_space">
     <label for="14_18" class="label_space">14-18</label>
-    <input type="radio" name="O_18" id="o_18" class="radio_space">
+    <input type="radio" name="radioage" id="o_18" class="radio_space">
     <label for="o_18" class="label_space">18+</label>
 
 
 </div>
 <div class="gender">
     <h3>Gender</h3>
-    <input type="radio" name="Male" id="male" class="radio_space">
+    <input type="radio" name="radiogender" id="male" class="radio_space">
     <label for="male" class="label_space2">Male</label>
-    <input type="radio" name="Female" id="female" class="radio_space">
+    <input type="radio" name="radiogender" id="female" class="radio_space">
     <label for="female" class="label_space2">Female</label>
 </div>
 <div class="chekbox">
@@ -86,8 +86,8 @@
 
 <div class="experience">
     <h3 id="exp ">How long have you been in the server?</h3>
-    <input type=" text" id="exp"  class="text-box_size2 text-box">
-    <label for="exp"  class="padding row_label shade-text "></label>
+    <input type=" text" id="expr"  class="text-box_size2 text-box">
+    <label id="expr-valid" for="exp"  class="padding row_label shade-text "></label>
 
 </div>
 <div class="description">
@@ -103,9 +103,9 @@
 </div>
 <div class="last_q">
     <h3>Are you owner of any other server?</h3>
-    <input type="radio" name="Yes" id="yes" class="radio_space">
+    <input type="radio" name="choice" id="yes" class="radio_space">
     <label for="yes" class="label_space2">Yes</label>
-    <input type="radio" name="No" id="no" class="radio_space">
+    <input type="radio" name="choice" id="no" class="radio_space">
     <label for="no" class="label_space2">No</label>
 
 </div>

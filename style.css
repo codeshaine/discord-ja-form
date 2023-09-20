@@ -65,6 +65,9 @@ textarea::placeholder{
     color:#696d7d;
 }
 
+.sec-name::placeholder{
+    text-align: center;
+}
 
 .form-color{
     background-color:#424657;
@@ -191,7 +194,7 @@ option{
     font-size:0.75rem;
 }
 
-/* ! ok few adjustmetn for mobiles */
+/* ! ok few adjustment for mobiles */
 
 
 @media screen and (max-width: 500px){
