@@ -120,5 +120,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // ! code by shaine to to check the options and textbox are empty before submitting
 function sub(){
-    
+
 }
