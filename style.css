@@ -215,10 +215,20 @@ option{
         display: grid;
         grid-template-columns: repeat(1,100%);
     }
-    .text-box_size1{
+   
+    .firstname{
+        width:48%;
         height: 20px;
-        width: 121px;
-        margin: 0;
+        margin-right: 2px;
+    }
+    .secondname{
+        width: 48%;
+        height: 20px;
+        margin-left: 2px;
+    }
+    .text-box_size1{
+        height: 100%;
+        width: 100%;
     }
     .text-box_size2 {
         width: 100%;
@@ -281,9 +291,38 @@ option{
 
 
 /* !for ipad and things */
-@media screen and (max-width: 1012px){
-    .text-box_size1{
+@media screen and (max-width: 1030px){
+    
+    .firstname{
+        width:48%;
         height: 20px;
-        width: 183px;
+        margin-right: 2px;
     }
+    .secondname{
+        width: 48%;
+        height: 20px;
+        margin-left: 2px;
+    }
+    .text-box_size1{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* !for 300px devices */
+@media screen and (max-width: 400px){
+.firstname{
+    width:48%;
+    height: 20px;
+    margin-right: 2px;
+}
+.secondname{
+    width: 48%;
+    height: 20px;
+    margin-left: 2px;
+}
+.text-box_size1{
+    height: 100%;
+    width: 100%;
+}
 }
