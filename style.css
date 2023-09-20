@@ -67,7 +67,6 @@ textarea::placeholder{
 
 
 .form-color{
-  
     background-color:#424657;
     padding: 3rem;
     border-radius: 2%;
@@ -192,7 +191,6 @@ option{
     font-size:0.75rem;
 }
 
-
 /* ! ok few adjustmetn for mobiles */
 
 
@@ -215,7 +213,7 @@ option{
         display: grid;
         grid-template-columns: repeat(1,100%);
     }
-   
+
     .firstname{
         width:48%;
         height: 20px;
@@ -292,7 +290,7 @@ option{
 
 /* !for ipad and things */
 @media screen and (max-width: 1030px){
-    
+
     .firstname{
         width:48%;
         height: 20px;
